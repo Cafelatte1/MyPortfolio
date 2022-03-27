@@ -1,4 +1,3 @@
-# 메일 분류하기 실습
 import numpy as np
 from numpy import array, nan, random as np_rnd, where
 import pandas as pd
@@ -388,15 +387,16 @@ for folder_class, item in zip(pred_df, target_folder.Items):
 
 for idx in range(num_items):
     folder_name = move_folders[idx]
+    target_item = target_folder.Items[0]
     if folder_name == "normal":
-        print(target_folder.Items[0].Subject, "\n  is moved to", folder_name, "\n")
-        if not target_folder.Items[0].Unread:
-            target_folder.Items[0].GetConversation().MarkAsUnread()
-        target_folder.Items[0].Move(target_folder.Folders["normal"])
+        print(target_item.Subject, "\n  is moved to", folder_name, "\n")
+        if not target_item.Unread:
+            target_item.GetConversation().MarkAsUnread()
+        target_item.Move(target_folder.Folders["normal"])
         # inbox.Folders["@classifier"]
     else:
-        print(target_folder.Items[0].Subject, "\n  is moved to", folder_name, "\n")
-        if not target_folder.Items[0].Unread:
-            target_folder.Items[0].GetConversation().MarkAsUnread()
-        target_folder.Items[0].Move(inbox.Folders[folder_name])
+        print(target_item.Subject, "\n  is moved to", folder_name, "\n")
+        if not target_item.Unread:
+            target_item.GetConversation().MarkAsUnread()
+        target_item.Move(inbox.Folders[folder_name])
     sleep(0.25)

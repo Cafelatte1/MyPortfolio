@@ -1,4 +1,3 @@
-# mail classifier
 import numpy as np
 from numpy import array, nan, random as np_rnd, where
 import pandas as pd
