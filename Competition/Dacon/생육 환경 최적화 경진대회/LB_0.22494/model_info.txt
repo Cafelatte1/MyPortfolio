@@ -1,0 +1,2 @@
+Swin Transformer (Image size : 128)
+Dense -> Flatten -> Dense
