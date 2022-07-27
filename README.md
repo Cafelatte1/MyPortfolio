@@ -12,5 +12,3 @@
 **Education**<br>
 &nbsp;&nbsp;한국기술교육대학교 산업경영학부(주) 컴퓨터공학부(부)
 <br><br>
-
-**Awards and Honors**<br>
