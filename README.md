@@ -1,5 +1,5 @@
 **Name**<br></br>
-&nbsp;&nbsp;김영준
+* 김영준<br></br>
 &nbsp;&nbsp;Linkedin : https://www.linkedin.com/in/youngjun-kim-052a25232/<br></br>
 
 <br></br>
