@@ -4,9 +4,9 @@
 
 <br></br>
 **Skills**<br></br>
-1. Data Engineering with Python<br></br>
-2. Data Analysis<br></br>
-3. ML & AI Modeling<br></br>
+1. Data Engineering with Python
+2. Data Analysis
+3. ML & AI Modeling
 
 <br></br>
 **Education**<br></br>
