@@ -1,7 +1,9 @@
 **Name**<br></br>
 * 김영준
 * Linkedin : https://www.linkedin.com/in/youngjun-kim-052a25232/
-* 
+* Kaggle : https://www.kaggle.com/cafelatte1
+* Dacon : https://dacon.io/myprofile/423853/home
+
 <br></br>
 **Skills**<br></br>
 1. Data Engineering with Python
