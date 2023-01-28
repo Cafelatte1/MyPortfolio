@@ -1,6 +1,6 @@
 **Name**<br></br>
-* 김영준<br></br>
-&nbsp;&nbsp;Linkedin : https://www.linkedin.com/in/youngjun-kim-052a25232/<br></br>
+* 김영준
+* Linkedin : https://www.linkedin.com/in/youngjun-kim-052a25232/<br></br>
 
 <br></br>
 **Skills**<br></br>
