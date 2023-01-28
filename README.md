@@ -4,7 +4,7 @@
 
 <br></br>
 **Skills**<br></br>
-1. Data Handling with Python & R<br></br>
+1. Data Engineering with Python<br></br>
 2. Data Analysis<br></br>
 3. ML & AI Modeling<br></br>
 
