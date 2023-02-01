@@ -1,0 +1,15 @@
+구독경제 취향관련
+
+import pickle
+
+with open('dogs.pickle', 'rb') as f:
+    df=pickle.load(f)
+
+df=df[df['대분류'].isin(["취향 관련"])]
+print(df)
+
+df=df.drop(['대분류', '성별', '연령대'], axis=1)
+print(df)
+
+df=df.groupby('반기기준')[['매출건수','매출금액']].sum()
+print(df)

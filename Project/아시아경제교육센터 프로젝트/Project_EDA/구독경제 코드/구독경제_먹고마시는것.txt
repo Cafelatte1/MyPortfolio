@@ -1,0 +1,13 @@
+import pickle
+
+with open('dogs.pickle', 'rb') as f:
+    gudok = pickle.load(f)
+
+
+
+##먹고마시는 것 index
+drink = gudok.loc[gudok["대분류"] == "먹고 마시는 것",['반기기준', '대분류','매출건수', '매출금액']]
+#print(drink)
+grouped = drink.groupby('반기기준')
+drink_sum = grouped.sum().reset_index()
+print(drink_sum)

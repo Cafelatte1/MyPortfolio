@@ -1,0 +1,50 @@
+import pickle
+
+with open('dogs.pickle', 'rb') as f:
+    df=pickle.load(f)
+
+#반기를 기준으로 각자 맡은 대분류의 매출건수와 매출금액 합
+df=df[df['대분류'].isin(["취향 관련"])]
+df=df.groupby('반기기준')[['매출건수','매출금액']].sum()
+print(df)
+
+import matplotlib as mpl
+import matplotlib.pyplot as plt
+import numpy as np
+
+#한글 안깨지게 하는 코드
+print(mpl.get_cachedir())
+from matplotlib import font_manager, rc
+font_path = "C:/Users/683/PycharmProjects/pythonProject/venv/Lib/site-packages/matplotlib/mpl-data/fonts/ttf/08SeoulNamsan.ttf"
+font = font_manager.FontProperties(fname=font_path).get_name()
+plt.rc('font', family=font)
+
+
+
+#다중 막대 그래프
+plt.figure(figsize=(12, 6))
+index=list(df.index)
+gun=list(df['매출건수'])
+geum=list(df['매출금액']/10000) #단위 만이라고 범례에 표시해주기
+
+x=np.arange(len(index))
+
+bar_width = 0.35
+alpha = 0.5
+
+p1 = plt.bar(x, gun,
+             bar_width,
+             color='b',
+             alpha=alpha,
+             label='매출건수')
+
+p2 = plt.bar(x + bar_width, geum,
+             bar_width,
+             color='r',
+             alpha=alpha,
+             label='매출금액')
+
+plt.title('구독경제 매출건수/매출금액', pad=20, fontsize=20)
+plt.xticks(x, index, fontsize=15)
+plt.legend((p1[0], p2[0]), ('매출건수', '매출금액(단위:만)'), fontsize=15)
+plt.show()
