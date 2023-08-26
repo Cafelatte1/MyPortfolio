@@ -1,5 +1,0 @@
-p-value 0.05 이하인 기업 수
-
-anova_weekday 0%
-anova_weeknum 0%
-anova_mfi_signal 40%
