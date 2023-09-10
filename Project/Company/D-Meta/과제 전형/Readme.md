@@ -14,12 +14,12 @@ D-Meta.ai 과제 전형 김영준 지원자 Github 페이지 입니다.
 root
   ㄴcut_image.py
   ㄴdata\
-       ㄴ image1.jpg
+      ㄴ image1.jpg
 ```
 
 ## Requirements
-
 ```
+pip install --upgrade pip
 pip install numpy==1.23.5
 pip install pandas==1.5.3
 pip install scikit-learn==1.1.3
@@ -29,9 +29,7 @@ pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra
 pip install optuna
 ```
 
-
 ## 소스 실행 Code Snipet
-
 ```
 # 1. cut_image.py
 # format
