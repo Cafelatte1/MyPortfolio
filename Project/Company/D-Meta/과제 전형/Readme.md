@@ -6,10 +6,12 @@
 
 이미지는 꼭 실행하는 스크립트와 같은 depth 내 'data' 폴더 안에 있어야 합니다.
 
+```
 root
   ㄴcut_image.py
    ㄴ data\
       ㄴ image1.jpg
+```
 
 ## 소스 실행 Code Snipet
 
@@ -25,8 +27,6 @@ python .\cut_image.py yerin2.jpg 2 2 test 42
 python merge_image.py ${input_file_name} ${M} ${N} ${output_file_path} ${seed}
 # example
 python .\merge_image.py yerin2.jpg 2 2 test_merge.jpg 42
-
-# INFO : image must be in 'data' folder
 ```
 
 
