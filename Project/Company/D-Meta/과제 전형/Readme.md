@@ -17,6 +17,19 @@ root
        ㄴ image1.jpg
 ```
 
+## Requirements
+
+```
+pip install numpy==1.23.5
+pip install pandas==1.5.3
+pip install scikit-learn==1.1.3
+pip install opencv-python
+pip install scikit-image
+pip install torch==1.13.1+cpu torchvision==0.14.1+cpu torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cpu
+pip install optuna
+```
+
+
 ## 소스 실행 Code Snipet
 
 ```
