@@ -2,7 +2,9 @@
 
 과제에 대한 솔루션 설명 자료는 [솔루션자료_디메타 과제 전형.pdf](https://github.com/Cafelatte1/MyPortfolio/blob/main/Project/Company/D-Meta/%EA%B3%BC%EC%A0%9C%20%EC%A0%84%ED%98%95/%EC%86%94%EB%A3%A8%EC%85%98%EC%9E%90%EB%A3%8C_%EB%94%94%EB%A9%94%ED%83%80%20%EA%B3%BC%EC%A0%9C%20%EC%A0%84%ED%98%95.pdf) 파일이니 먼저 참고 부탁드립니다.
 
-소스코드는 sources 폴더 안에 있습니다.
+소스코드는 'sources' 폴더 안에 있습니다.
+
+이미지는 'data' 폴더 안에 꼭 있어야 합니다.
 
 ## 소스 실행 Code Snipet
 
@@ -18,6 +20,8 @@ python .\cut_image.py yerin2.jpg 2 2 test 42
 python merge_image.py ${input_file_name} ${M} ${N} ${output_file_path} ${seed}
 # example
 python .\merge_image.py yerin2.jpg 2 2 test_merge.jpg 42
+
+# INFO : image must be in 'data' folder
 ```
 
 
