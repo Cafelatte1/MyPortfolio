@@ -1,6 +1,8 @@
 ## D-Meta.ai 과제 전형
 
-과제에 대한 솔루션 설명 자료는 '솔루션자료_디메타 과제 전형.pdf' 입니다.
+과제에 대한 솔루션 설명 자료는 [솔루션자료_디메타 과제 전형.pdf](https://github.com/Cafelatte1/MyPortfolio/blob/main/Project/Company/D-Meta/%EA%B3%BC%EC%A0%9C%20%EC%A0%84%ED%98%95/%EC%86%94%EB%A3%A8%EC%85%98%EC%9E%90%EB%A3%8C_%EB%94%94%EB%A9%94%ED%83%80%20%EA%B3%BC%EC%A0%9C%20%EC%A0%84%ED%98%95.pdf) 입니다.
+
+
 소스코드는 sources 폴더 안에 있습니다.
 
 ## 소스실행 코드스니펫
