@@ -4,7 +4,12 @@
 
 소스코드는 'sources' 폴더 안에 있습니다.
 
-이미지는 'data' 폴더 안에 꼭 있어야 합니다.
+이미지는 꼭 실행하는 스크립트와 같은 depth 내 'data' 폴더 안에 있어야 합니다.
+
+root
+  ㄴcut_image.py
+   ㄴ data\
+      ㄴ image1.jpg
 
 ## 소스 실행 Code Snipet
 
