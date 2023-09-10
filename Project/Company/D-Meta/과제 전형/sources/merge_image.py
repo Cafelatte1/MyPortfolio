@@ -328,7 +328,7 @@ def main():
         print("value error on the number of grid")
         return -1
     CFG.target_grid = (int(target_grid_h), int(target_grid_w))
-    input_foler_path = CFG.image_root_path + "random_" + sys.argv[1:][0] + "/"
+    input_foler_path = CFG.image_root_path + "random_" + sys.argv[1:][0].split(".")[0] + "/"
     output_file_name = sys.argv[1:][3]
     seed = int(sys.argv[1:][4]) if sys.argv[1:][4].isdigit() else int(datetime.now().timestamp())
     
