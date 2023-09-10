@@ -9,7 +9,7 @@
 ```
 root
   ㄴcut_image.py
-  ㄴ data\
+  ㄴdata\
        ㄴ image1.jpg
 ```
 
