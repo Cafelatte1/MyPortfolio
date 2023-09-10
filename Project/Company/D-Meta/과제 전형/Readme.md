@@ -9,8 +9,8 @@
 ```
 root
   ㄴcut_image.py
-   ㄴ data\
-      ㄴ image1.jpg
+  ㄴ data\
+       ㄴ image1.jpg
 ```
 
 ## 소스 실행 Code Snipet
