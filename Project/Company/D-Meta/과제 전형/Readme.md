@@ -8,6 +8,8 @@ D-Meta.ai 과제 전형 김영준 지원자 Github 페이지 입니다.
 
 이미지는 꼭 실행하는 스크립트와 같은 depth 내 'data' 폴더 안에 있어야 합니다.
 
+(시간 상 세부적인 Hyper-Parameter를 조정하는 기능은 구현하지 않았습니다.)
+
 ```
 root
   ㄴcut_image.py
